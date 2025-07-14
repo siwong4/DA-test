@@ -1,9 +1,9 @@
 .cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
   grid-gap: 24px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .cards > ul > li img {
-  width: 100%;
   aspect-ratio: 4 / 3;
+  width: 100%;
   object-fit: cover;
 }
